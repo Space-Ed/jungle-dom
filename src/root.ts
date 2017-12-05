@@ -1,4 +1,4 @@
-import {StdOp ,BaseMedium , J, Domain, j, Cell , Construct, Composite, isPrimative} from '../node_modules/jungle-core/build/jungle'
+import {StdOp ,BaseMedium , J, Domain, j, Cell , Construct, Composite, isPrimative} from 'jungle-core'
 
 
 const headattrs = ['style', 'class', 'alt', 'src', 'href', 'type', 'action', 'required', 'id']

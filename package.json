@@ -2,14 +2,15 @@
   "name": "jungle-dom",
   "version": "0.0.2",
   "description": "A web based domain for building user interfaces with jungle",
-  "main": "root.js",
+  "main": "build/root.js",
+  "types": "build/root.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Space-Ed",
   "license": "Apache-2.0",
   "dependencies": {
-    "jungle-core": "^0.9.0"
+    "jungle-core": "^0.9.3"
   },
   "devDependencies": {},
   "repository": {
