@@ -90,7 +90,7 @@ class HTMLElementCell extends Cell {
 
 }
 
-class DOMRoot extends Cell {
+export class DOMRoot extends Cell {
 
     elem:HTMLElement;
 
@@ -105,7 +105,7 @@ class DOMRoot extends Cell {
 
 }
 
-const Dom = new Domain()
+export const Dom = new Domain()
 for (let domElemTag of [
   'div', 'p', 'a','b','i','h1','h2','h3', 'h4', 'h5', 'h6',
   'style', 'img', 'ol', 'ul', 'li', 'span', 'br', 
@@ -114,4 +114,9 @@ for (let domElemTag of [
     Dom.define(domElemTag, j(HTMLElementCell, {head: {elem:domElemTag}}))
 }
 
-export default DOMRoot
+const entry = {
+    basis:DOMRoot,
+    domain:Dom
+}
+
+export default entry
