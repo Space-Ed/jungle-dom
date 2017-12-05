@@ -6,9 +6,26 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Space-Ed",
+  "license": "Apache-2.0",
   "dependencies": {
     "jungle-core": "^0.9.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Space-Ed/jungle-dom.git"
+  },
+  "keywords": [
+    "jungle",
+    "gui",
+    "document",
+    "domain",
+    "web",
+    "client"
+  ],
+  "bugs": {
+    "url": "https://github.com/Space-Ed/jungle-dom/issues"
+  },
+  "homepage": "https://github.com/Space-Ed/jungle-dom#readme"
 }
