@@ -42,6 +42,10 @@ class HTMLElementCell extends Cell {
 
     elem: HTMLElement;
 
+    constructor() {
+        super()
+    }
+
     applyHead(head) {
         super.applyHead(head)
         this.elem = document.createElement(head.elem)
@@ -89,6 +93,10 @@ class HTMLElementCell extends Cell {
 class DOMRoot extends Cell {
 
     elem:HTMLElement;
+
+    constructor(){
+        super()
+    }
 
     applyHead(head) {
         super.applyHead(head)
